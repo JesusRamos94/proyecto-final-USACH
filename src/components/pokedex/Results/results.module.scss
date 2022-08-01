@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pokedex_grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 18px;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 250px;
+  height: 95px;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 700px) {
+  .pokemon_grid {
+    grid-template-columns: auto ;
+  }
+}
