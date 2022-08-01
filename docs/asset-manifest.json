@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cc3e760.css",
+    "main.js": "/static/js/main.f272750c.js",
+    "static/js/787.69af1a8b.chunk.js": "/static/js/787.69af1a8b.chunk.js",
+    "static/media/cinco.png": "/static/media/cinco.d0fab06252dbd28b90ea.png",
+    "static/media/tres.png": "/static/media/tres.4464245da025ab6aaba4.png",
+    "static/media/dos.png": "/static/media/dos.460f3604885484af5f35.png",
+    "static/media/cuatro.png": "/static/media/cuatro.a298fd00bb81832f6d0d.png",
+    "static/media/uno.png": "/static/media/uno.18def8b3f505d1f8f481.png",
+    "static/media/pokefondo.png": "/static/media/pokefondo.dd6749f1c313d3c05c0b.png",
+    "static/media/pika.png": "/static/media/pika.0cf914699137b5d42986.png",
+    "static/media/logo.png": "/static/media/logo.62bee4d592b410d1e645.png",
+    "static/media/pikachu.png": "/static/media/pikachu.50742e50c18b46c85580.png",
+    "index.html": "/index.html",
+    "main.2cc3e760.css.map": "/static/css/main.2cc3e760.css.map",
+    "main.f272750c.js.map": "/static/js/main.f272750c.js.map",
+    "787.69af1a8b.chunk.js.map": "/static/js/787.69af1a8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cc3e760.css",
+    "static/js/main.f272750c.js"
+  ]
+}
