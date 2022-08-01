@@ -2,7 +2,7 @@ import React from "react";
 import { Pagination } from "../Pagination/Pagination";
 import { Pokemon } from "../Pokemon/Pokemon";
 import style from "./results.module.scss";
-import logo from './img/logo.png'
+import logoDos from './img/logo.png'
 
 export const Results = ({ pokemons, page, setPage, total, loading }) => {
   const lastPage = () => {
@@ -19,7 +19,7 @@ export const Results = ({ pokemons, page, setPage, total, loading }) => {
   return (
     <div>
       <div className={style.header}>
-        <img className={style.logo} src={logo} alt="" />
+        <img className={style.logo} src={logoDos} alt="" />
         <Pagination
           page={page + 1}
           totalPages={total}
