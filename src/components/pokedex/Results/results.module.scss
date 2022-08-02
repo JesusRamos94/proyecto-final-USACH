@@ -13,14 +13,34 @@
   padding: 0 10px;
 }
 
+.loading{
+height: 100vh;
+width: 100%;
+text-align: center;
+margin-top: 3rem;
+}
+
 .logo {
   width: 250px;
   height: 95px;
   margin-bottom: 3rem;
 }
 
-@media (min-width: 700px) {
-  .pokemon_grid {
-    grid-template-columns: auto ;
+@media (max-width: 900px) {
+  .pokedex_grid {
+    grid-template-columns: auto  auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .pokedex_grid {
+    grid-template-columns: auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }

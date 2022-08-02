@@ -19,22 +19,22 @@ export const Navbar = () => {
   return (
     <div>
       <nav className={style.nav}>
-        <a href="*" className={style.nav__brand}>
+        <a  className={style.nav__brand}>
           <img src={logo} className={style.logo} alt="" />
         </a>
         <ul className={active}>
           <li className={style.nav__item}>
-            <a href="*" className={style.nav__link}>
+            <a  className={style.nav__link}>
               Home
             </a>
           </li>
           <li className={style.nav__item}>
-            <a href="*" className={style.nav__link}>
+            <a className={style.nav__link}>
               Pokedex
             </a>
           </li>
           <li className={style.nav__item}>
-            <a href="*" className={style.nav__link}>
+            <a className={style.nav__link}>
               Contact
             </a>
           </li>

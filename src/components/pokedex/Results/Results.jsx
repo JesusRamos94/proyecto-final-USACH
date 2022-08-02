@@ -28,7 +28,7 @@ export const Results = ({ pokemons, page, setPage, total, loading }) => {
         />
       </div>
       {loading ?
-      <div>Cargando Pokemones...</div> :
+      <div className={style.loading}>Cargando Pokemones...</div> :
       <div className={style.pokedex_grid}>
         {pokemons.map((pokemon, i) => {
           return <Pokemon pokemon={pokemon} key={pokemon.name} />;

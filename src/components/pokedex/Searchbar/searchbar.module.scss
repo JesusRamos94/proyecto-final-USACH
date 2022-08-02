@@ -33,7 +33,7 @@
 
 .container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 5rem 0px;
 }
 
@@ -43,7 +43,7 @@
 
   img{
     background-color: black;
-    max-width: 80%;
+    max-width: 35%;
     height: 100%;
     border-radius: 50%;
     margin-right: 5rem;
@@ -98,6 +98,49 @@ h4{
   }
 .container{
   padding: 0;
+}
+
+}
+
+@media (max-width: 576px) {
+button{
+  margin: 0;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 5rem 0px;
+}
+
+.box_one{
+display: grid;
+grid-template-columns: 1fr;
+justify-items: center;
+
+img{
+  margin: 0;
+}
+}
+
+
+.img_container{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 100vh;
+
+  
+}
+
+.img_one{
+  width: 50%;
+  height: 280px;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 }

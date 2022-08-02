@@ -12,8 +12,8 @@ export const Footer = () => {
         </h3>
 
         <p className={style.footer_links}>
-          <a href="*">Home</a> | <a href="*">About</a> | <a href="*">Contact</a>{" "}
-          | <a href="*">Blog</a> |
+          <a >Home</a> | <a >About</a> | <a >Contact</a>{" "}
+          | <a >Blog</a> |
         </p>
 
         <p className={style.footer_company_name}>
@@ -36,7 +36,7 @@ export const Footer = () => {
         <div>
           <BsEnvelope className={`${style.icon} ${style.envelope}`} />
           <p>
-            <a href="*">jeenrade@gmail.com</a>
+            <a href="">jeenrade@gmail.com</a>
           </p>
         </div>
       </div>

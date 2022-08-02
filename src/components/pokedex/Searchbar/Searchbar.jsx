@@ -89,22 +89,22 @@ export const Searchbar = () => {
               
 
               <div className={style.img_container}>
-                <span>
+                <div className={style.box}>
                   <img
                     className={style.img_one}
                     src={pokemon.sprites.other.dream_world.front_default}
                     alt=""
                   />{" "}
                   Versión: Mundo de los sueños
-                </span>
-                <span>
+                </div>
+                <div className={style.box}>
                   <img
                     className={style.img_two}
                     src={pokemon.sprites.front_default}
                     alt=""
                   />
                   Versión: Videojuegos antiguos
-                </span>
+                </div>
               </div>
             </div>
           </div>
